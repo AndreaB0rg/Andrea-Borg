@@ -1,73 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nav Flexbox</title>
-    <!-- Correct Bootstrap CSS Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-3y5FHQhHg1N4ttNVxCU8eJ9nZJoU2UNlSB4pK2x1iV3VimxHa06IvPwsKXT20fHG" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav Flexbox</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container mt-4">
-        <h1>Nav Flexbox</h1>
-
-        <h2>Navbar Style 1</h2>
-        <nav class="nav">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </nav>
-
-        <h2>Navbar Style 2</h2>
-        <nav class="nav justify-content-around">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </nav>
-
-        <h2>Column Navbar</h2>
-        <nav class="nav flex-column">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </nav>
-
-        <h2>Reverse Column Navbar</h2>
-        <nav class="nav flex-column-reverse">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link active" href="#">Active</a>
-        </nav>
-
-        <h2>Responsive Navbar</h2>
-        <nav class="nav flex-column flex-sm-row justify-content-center align-items-center">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </nav>
-
-        <h2>Tab Navbar</h2>
-        <nav class="nav nav-tabs">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </nav>
-
-        <h2>Navbar Style 2</h2>
-        <nav class="nav d-flex justify-content-end">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </nav>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-pp3D7kS3lmxnT3z87HHKzTo9m6zg1HhehH8hPH7/r+2Q/siBsWDaZEcv1y5B6T6x" crossorigin="anonymous"></script>
+  <div class="container">
+    <h1>Nav Flexbox</h1>
+    
+    <h2>Navbar Style 1</h2>
+    <nav class="navbar navbar-style1">
+      <a href="#" class="active">Active</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#" class="disabled">Disabled</a>
+    </nav>
+    
+    <h2>Navbar Style 2</h2>
+    <nav class="navbar navbar-style2">
+      <a href="#" class="active">Active</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+    
+    <h2>Column Navbar</h2>
+    <nav class="navbar column-navbar">
+      <a href="#" class="active">Active</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#" class="disabled">Disabled</a>
+    </nav>
+    
+    <h2>Reverse Column Navbar</h2>
+    <nav class="navbar reverse-column-navbar">
+      <a href="#" class="disabled">Disabled</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#" class="active">Active</a>
+    </nav>
+    
+    <h2>Responsive Navbar</h2>
+    <nav class="navbar responsive-navbar">
+      <a href="#" class="active">Active</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#" class="disabled">Disabled</a>
+    </nav>
+    
+    <h2>Tab Navbar</h2>
+    <nav class="navbar tab-navbar">
+      <a href="#" class="active">Active</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#" class="disabled">Disabled</a>
+    </nav>
+  </div>
 </body>
-</html>

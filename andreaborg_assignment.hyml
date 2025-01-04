@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 7: ACCLAIMED</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7adbff;
+            color: #000000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+        }
+        .logo-top {
+            width: 350px;
+            margin-bottom: 20px;
+        }
+        .logo-bottom {
+            width: 30px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            color: #000000;
+        }
+        p {
+            line-height: 1;
+        }
+        strong {
+            color: #7adbff;
+        }
+        ol {
+            padding-left: 0;
+            list-style-type: none; /* Removes default numbering */
+        }
+        ol li {
+            color: #000000;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="acclogo1.png" alt="acclogo1" class="logo logo-top">
+        <h2>Artificial Intelligence Content Cloning of Language-Agnostic Media for Education Democratisation</h2>
+        
+        <p><strong>Funding:</strong> Xjenza Malta Technology Development Programme (TDP-Lite)</p>
+        <p>
+            ACCLAIMED stands as a pioneering project in educational innovation, merging AI with human expertise to democratise learning globally. It represents a significant advance in online education, aiming to overcome language and geographical barriers using generative AI. This initiative leverages AI to create and distribute high-quality educational content in various languages, enhancing global inclusivity and accessibility in education.
+        </p>
+        <p>
+            This project blends technology and human insight, ensuring quality content and relevance, and comprises three main components:
+        </p>
+        <ol>
+            <li>
+                <strong>1. Course Generator:</strong> 
+                <p>Relies on educators and subject matter experts to provide foundational knowledge and pedagogical input for an AI authoring tool. This tool produces not only core course content but also supplementary materials like curriculums, assessment instruments, and educational activities.</p>
+            </li>
+            <li>
+                <strong>2. Guardrail:</strong> 
+                <p>A smart safety mechanism that collaborates with human experts to offer guidelines and boundaries to the AI-generated materials, providing a highly refined review of the educational content. This step ensures ethical integrity, societal expectations alignment, accuracy, and fluency, effectively combining AI capabilities with human nuances to mitigate the associated risks.</p>
+            </li>
+            <li>
+                <strong>3. AI-Renderer:</strong>
+                 <p>Utilises an AI audio-visual cloning tool to transform the generated content into a realistic, human-delivered format, complete with slides and additional resources, ready for online deployment.</p>
+            </li>
+        </ol>
+        <p>
+            A key feature of ACCLAIMED is its multilingual capability, offering educational resources in numerous languages and thereby making high-quality education accessible globally. This empowers learners to access material in their native language, removing traditional educational barriers related to language and location.
+        </p>
+    </div>
+    <div class="footer">
+        &copy; 2025 ACCLAIMED
+        <img src="acclogo2.jpg" alt="acclogo2" class="logo logo-bottom">
+    </div>
+</body>
+</html>
